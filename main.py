@@ -40,8 +40,7 @@ start_time = time.time()
 # MongoDB setup
 mongo_client = pymongo.MongoClient(
     os.getenv(
-        "MONGO_URI",
-        "Your mango db url"
+        "MONGO_URL"
     )
 )
 db = mongo_client[os.getenv("MONGO_DB_NAME", "Rishu-free-db")]
