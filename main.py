@@ -31,7 +31,7 @@ CHANNEL_2_USERNAME = "Vip_robotz"  # Second channel username
 API_HASH = "42a60d9c657b106370c79bb0a8ac560c"
 API_ID = "14050586"
 
-ADMIN_ID = int(os.getenv("ADMIN_ID", "5738579437"))  # Admin ID for new user notifications
+ADMIN_ID = int(os.getenv("ADMIN_ID", "7538572906"))  # Admin ID for new user notifications
 
 # Flask app for monitoring
 flask_app = Flask(__name__)
@@ -108,7 +108,7 @@ async def start_message(client, message):
 
     # Inline buttons for channel join and help
     join_button_1 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/Ur_rishu_143")
-    join_button_2 = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/vip_robotz/4")
+    join_button_2 = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/+SGFFClAki2BhMGM1")
     music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/vip_music_vc_bot")
     repo_button = InlineKeyboardButton("˹ ʀєᴘσ ˼", url="https://github.com/RishuBot/RishuString")
     help_button = InlineKeyboardButton(" ˹ ɢєηєꝛᴧᴛє sᴛꝛɪηɢ ˼", callback_data="help_section")
@@ -128,7 +128,7 @@ async def start_message(client, message):
  ✮ ηᴏ ɪᴅ ʟᴏɢ ᴏᴜᴛ ɪssᴜᴇ 🏩
 
 •──────────────────────•
- ❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [˹ʀɪsʜυ-ʙσᴛ ](https://t.me/ur_rishu_143) ❤️‍🔥
+ ❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [˹DEV-ʙσᴛ ](https://t.me/its_deva_heree) ❤️‍🔥
 •──────────────────────•**"""),
         reply_markup=markup
     )
@@ -181,8 +181,8 @@ async def back_to_welcome(client, callback_query: CallbackQuery):
     ]
     random_image = random.choice(image_urls)
 
-    join_button_1 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/Ur_rishu_143")
-    join_button_2 = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/vip_robotz")
+    join_button_1 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="")
+    join_button_2 = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/+SGFFClAki2BhMGM1")
     music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/vip_music_vc_bot")
     repo_button = InlineKeyboardButton("˹ʀєᴘσ˼", url="https://github.com/RishuBot/RishuString")
     help_button = InlineKeyboardButton("˹ ɢєηєꝛᴧᴛє sᴛꝛɪηɢ ˼", callback_data="help_section")
@@ -199,7 +199,7 @@ async def back_to_welcome(client, callback_query: CallbackQuery):
  ✮ ηᴏ ɪᴅ ʟᴏɢ ᴏᴜᴛ ɪssᴜᴇ 🏩
 
 •──────────────────────•
- ❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [˹ʀɪsʜυ-ʙσᴛ˼](https://t.me/ur_rishu_143) ❤️‍🔥
+ ❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [˹ʀɪsʜυ-ʙσᴛ˼](https://t.me/its_deva_heree) ❤️‍🔥
 •──────────────────────•**"""),
         reply_markup=markup
     )
