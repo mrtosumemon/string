@@ -26,12 +26,12 @@ import random
 
 # Bot details from environment variables
 BOT_TOKEN = os.getenv("BOT_TOKEN")  # Environment variable se token le raha hai #Your bot token 
-CHANNEL_1_USERNAME = "Ur_Rishu_143"  # First channel username
-CHANNEL_2_USERNAME = "Vip_robotz"  # Second channel username
+CHANNEL_1_USERNAME = "The_incricible"  # First channel username
+CHANNEL_2_USERNAME = "aboutlegendmickey"  # Second channel username
 API_HASH = "42a60d9c657b106370c79bb0a8ac560c"
 API_ID = "14050586"
 
-ADMIN_ID = int(os.getenv("ADMIN_ID", "5738579437"))  # Admin ID for new user notifications
+ADMIN_ID = int(os.getenv("ADMIN_ID", "7520092354"))  # Admin ID for new user notifications
 
 # Flask app for monitoring
 flask_app = Flask(__name__)
@@ -75,7 +75,7 @@ async def start_message(client, message):
         await asyncio.sleep(0.3)  # Adjust delay for progress updates
 
     # After progress bar reaches 100%, send welcome message
-    await baby.edit_text("**❖ Jᴀʏ sʜʀᴇᴇ ʀᴀᴍ 🚩...**")
+    await baby.edit_text("**❖ ʙᴏᴛ ꜱᴛᴀʀᴛᴇᴅ ...**")
     await asyncio.sleep(1)
     await baby.delete()
 
@@ -107,10 +107,10 @@ async def start_message(client, message):
     random_image = random.choice(image_urls)
 
     # Inline buttons for channel join and help
-    join_button_1 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/Ur_rishu_143")
-    join_button_2 = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/vip_robotz/4")
-    music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/vip_music_vc_bot")
-    repo_button = InlineKeyboardButton("˹ ʀєᴘσ ˼", url="https://github.com/RishuBot/RishuString")
+    join_button_1 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/The_incricible")
+    join_button_2 = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/the_incricible")
+    music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/dollxmusic_bot")
+    repo_button = InlineKeyboardButton("˹ ʀєᴘσ ˼", url="https://github.com/mrtosumemon")
     help_button = InlineKeyboardButton(" ˹ ɢєηєꝛᴧᴛє sᴛꝛɪηɢ ˼", callback_data="help_section")
 
     markup = InlineKeyboardMarkup([[help_button],[join_button_1,join_button_2],[music_button,repo_button]])
@@ -128,7 +128,7 @@ async def start_message(client, message):
  ✦ ηᴏ ɪᴅ ʟᴏɢ ᴏᴜᴛ ɪssᴜᴇ.
 
 •──────────────────────•
- ❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [˹ʀɪsʜυ-ʙσᴛ ](https://t.me/ur_rishu_143) ❤️‍🔥
+ ❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [˹ɪɴᴄʀɪᴄɪʙʟᴇ-ʙσᴛ ](https://t.me/Legend_mickey) ❤️‍🔥
 •──────────────────────•**"""),
         reply_markup=markup
     )
@@ -181,10 +181,10 @@ async def back_to_welcome(client, callback_query: CallbackQuery):
     ]
     random_image = random.choice(image_urls)
 
-    join_button_1 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/Ur_rishu_143")
-    join_button_2 = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/vip_robotz")
-    music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/vip_music_vc_bot")
-    repo_button = InlineKeyboardButton("˹ʀєᴘσ˼", url="https://github.com/RishuBot/RishuString")
+    join_button_1 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/The_incricible")
+    join_button_2 = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/the_incricible")
+    music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/dollxmusic_bot")
+    repo_button = InlineKeyboardButton("˹ʀєᴘσ˼", url="https://github.com/mrtosumemon")
     help_button = InlineKeyboardButton("˹ ɢєηєꝛᴧᴛє sᴛꝛɪηɢ ˼", callback_data="help_section")
 
     markup = InlineKeyboardMarkup([[help_button],[join_button_1,join_button_2],[music_button,repo_button]])
@@ -199,7 +199,7 @@ async def back_to_welcome(client, callback_query: CallbackQuery):
  ✦ ηᴏ ɪᴅ ʟᴏɢ ᴏᴜᴛ ɪssᴜᴇ 
 
 •──────────────────────•
- ❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [˹ʀɪsʜυ-ʙσᴛ˼](https://t.me/ur_rishu_143) ❤️‍🔥
+ ❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [˹ɪɴᴄʀɪᴄɪʙʟᴇ-ʙσᴛ˼](https://t.me/Legend_mickey) ❤️‍🔥
 •──────────────────────•**"""),
         reply_markup=markup
     )
@@ -229,7 +229,7 @@ async def send_join_prompt(client, chat_id):
     )
 
 
-@app.on_message(filters.command("broadcast") & filters.user(5738579437))
+@app.on_message(filters.command("broadcast") & filters.user(7520092354))
 async def broadcast_message(client, message):
     """Broadcast a message (text, photo, video, etc.) to all users."""
     if not (message.reply_to_message or len(message.command) > 1):
